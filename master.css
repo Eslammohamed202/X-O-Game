@@ -1,0 +1,34 @@
+.game {
+    width: 255px;
+    text-align: center;
+    margin: auto;
+    font-family: system-ui;
+    color: white;
+    font-weight: 500;
+}
+.title {
+    background-color: red;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+span {
+    color: yellow;
+}
+.square {
+    background: red;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 2px;
+    font-size: 45px;
+}
+.square:hover {
+    background: black;
+    cursor: pointer;
+}
+@media (max-width: 320px) {
+    .square {
+        float: left;
+        margin: 2px;
+    }
+}
